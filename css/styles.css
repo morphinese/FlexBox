@@ -1,0 +1,38 @@
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header {
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+.header-list {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+.header-item {
+}
+
+.header-link {
+	font-size: 20px;
+	line-height: 100%;
+}
+
+.home-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.home-item {
+	width: 400px;
+}
+.home-item:not(:last-child) {
+	margin-bottom: 20px;
+}
