@@ -24,15 +24,20 @@
 }
 
 .home-list {
+	border: 1px solid red;
+	height: 1000px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	align-items: flex-start;
+	justify-content: center;
+	align-items: stretch;
 	flex-wrap: wrap;
+	align-content: center;
+	row-gap: 20px;
+	column-gap: 30px;
 }
 .home-item {
 	width: 400px;
 }
-.home-item:not(:last-child) {
+/* .home-item:not(:last-child) {
 	margin-bottom: 20px;
-}
+} */
